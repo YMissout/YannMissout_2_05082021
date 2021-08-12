@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* GENERAL */
 html,
 body {
@@ -57,4 +58,27 @@ body {
 
 .margLogo {
   margin-bottom: 7px;
+=======
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 10px 0 20px;
+>>>>>>> main
 }
