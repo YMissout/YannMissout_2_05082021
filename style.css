@@ -494,3 +494,11 @@ body {
 .margeBlocFooter3 {
   margin-right: 15%;
 }
+
+.lienFooter {
+  color: black;
+}
+
+.divLienFooter {
+  height: 30px;
+}
