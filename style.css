@@ -256,6 +256,8 @@ body {
   background-color: white;
   padding: 1%;
   border-radius: 20px;
+  /* rajout pour version mobile et desktop */
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .cubeHebergements:hover {
@@ -663,5 +665,39 @@ body {
   }
   .mobileNone {
     display: none;
+  }
+  .margFilter {
+    padding-left: 5%;
+  }
+  .mobileEconomiques {
+    margin-right: 5px;
+  }
+  .mobileFamiliales {
+    margin-right: 0;
+  }
+  .filterText {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .info {
+    padding-left: 5%;
+  }
+  .blocPopulaires {
+    border-radius: 0;
+  }
+  .blocHebergements {
+    background-color: white;
+  }
+  .mobileTitlePara {
+    padding-left: 5%;
+  }
+  .blocActivites {
+    padding: 5%;
+    width: 90%;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
   }
 }
