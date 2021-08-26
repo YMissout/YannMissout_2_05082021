@@ -644,8 +644,8 @@ body {
     border-top: 0;
     border-bottom: 5px solid #0065fc;
   }
-  .mobileTitleh1 {
-    font-size: x-large;
+  /* .mobileTitleh1 {
+    font-size: x-large; */
   }
   .borderSearch {
     width: auto;
