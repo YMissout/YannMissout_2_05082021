@@ -25,105 +25,105 @@
   </head>
 
   <body>
-    <!-- NAV -->
-
-    <nav class="sizeNav">
-      <div class="sizeLiens flexBetween">
-        <div class="mobileTitlePara">
-          <img
-            class="margLogo"
-            src="./img/Reservia@3x.png"
-            alt="Logo Reservia"
-            width="120"
-            height="50"
-          />
-        </div>
-        <!-- on rajoute une div qui englobe les deux liens hebergement et activites -->
-        <div class="sizeLien12 flexCenter">
-          <div class="sizeLien sizeLienMobile flexCenter bordureNav">
-            <a class="colorLien2 decorationNone" href="#hebergements"
-              >Hébergements</a
-            >
-          </div>
-          <div class="sizeLien sizeLienMobile flexCenter bordureNav">
-            <a class="colorLien2 decorationNone" href="#activites">Activités</a>
-          </div>
-        </div>
-        <div class="sizeLien flexCenter bordureNav">
-          <a class="bold colorBlue decorationNone" href="#">S'inscrire</a>
-        </div>
-      </div>
-    </nav>
-
     <!-- HEADER -->
-
-    <header>
-      <section>
-        <div class="mobileTitlePara">
-          <h1 class="bold">
-            Trouvez votre hébergements pour vous vacances de rêve
-          </h1>
-          <p>En plein centre ville ou en pleine nature</p>
-        </div>
-        <div class="flexCenter borderSearch">
-          <div class="backGrey flexCenter iconSize">
-            <i class="fas fa-map-marker-alt"></i>
-          </div>
-          <div class="search">
-            <input
-              class="search flexCenter borderNone paddingSearch"
-              type="search"
-              value="Marseille, France"
+    <header class="paddingLeft paddingRight">
+      <nav class="sizeNav">
+        <div class="sizeLiens flexBetween">
+          <div class="mobileTitlePara">
+            <img
+              class="margLogo"
+              src="./img/Reservia@3x.png"
+              alt="Logo Reservia"
+              width="120"
+              height="50"
             />
           </div>
-          <div class="backBlue flexCenter buttonSearch">
-            <span class="mobileNone">Rechercher</span>
-            <span class="desktopNone"><i class="fas fa-search"></i></span>
+          <!-- on rajoute une div qui englobe les deux liens hebergement et activites -->
+          <div class="sizeLien12 flexCenter">
+            <div class="sizeLien sizeLienMobile flexCenter bordureNav">
+              <a class="colorLien2 decorationNone" href="#hebergements"
+                >Hébergements</a
+              >
+            </div>
+            <div class="sizeLien sizeLienMobile flexCenter bordureNav">
+              <a class="colorLien2 decorationNone" href="#activites"
+                >Activités</a
+              >
+            </div>
+          </div>
+          <div class="sizeLien flexCenter bordureNav">
+            <a class="bold colorBlue decorationNone" href="#">S'inscrire</a>
           </div>
         </div>
-
-        <!-- FILTRES -->
-
-        <div class="mobileFilterWrap filter margFilter">
-          <div class="margFilterTitle"><h3>Filtres</h3></div>
-          <!-- rajout de deux <div> "flexAround" pour separer en mobile -->
-          <!-- div 1 -->
-          <div class="flexAround">
-            <div class="mobileEconomiques flexBetween filterTextIcons">
-              <i
-                class="fas fa-money-bill-wave fa-lg filterIcons flexCenter"
-              ></i>
-              <div class="filterText flexCenter">Economiques</div>
-            </div>
-            <div class="mobileFamiliales flexBetween filterTextIcons">
-              <i class="fas fa-child fa-lg filterIcons flexCenter"></i>
-              <div class="filterText flexCenter">Familiales</div>
-            </div>
-          </div>
-          <!-- div 2 -->
-          <div class="mobileFilterWrap flexAround">
-            <div class="flexBetween filterTextIcons">
-              <i class="fas fa-heart fa-lg filterIcons flexCenter"></i>
-              <div class="filterText flexCenter">Romantiques</div>
-            </div>
-            <div class="flexBetween filterTextIcons">
-              <i class="fas fa-dog fa-lg filterIcons flexCenter"></i>
-              <div class="filterText flexCenter">Animaux autorisés</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- INFO ICON -->
-
-        <div class="info">
-          <div class="parentIcon flexCenter">
-            <i class="fas fa-info fa-xs colorBlue"></i>
-          </div>
-          <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
-      </section>
+      </nav>
     </header>
-    <section id="hebergements" class="flexAround">
+
+    <!-- SECTION recherche -->
+
+    <section class="paddingLeft paddingRight">
+      <div class="mobileTitlePara">
+        <h1 class="bold">
+          Trouvez votre hébergements pour vous vacances de rêve
+        </h1>
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
+      <div class="flexCenter borderSearch">
+        <div class="backGrey flexCenter iconSize">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="search">
+          <input
+            class="search flexCenter borderNone paddingSearch"
+            type="search"
+            value="Marseille, France"
+          />
+        </div>
+        <div class="backBlue flexCenter buttonSearch">
+          <span class="mobileNone">Rechercher</span>
+          <span class="desktopNone"><i class="fas fa-search"></i></span>
+        </div>
+      </div>
+
+      <!-- FILTRES -->
+
+      <div class="mobileFilterWrap filter margFilter">
+        <div class="margFilterTitle"><h3>Filtres</h3></div>
+        <!-- rajout de deux <div> "flexAround" pour separer en mobile -->
+        <!-- div 1 -->
+        <div class="flexAround">
+          <div class="mobileEconomiques flexBetween filterTextIcons">
+            <i class="fas fa-money-bill-wave fa-lg filterIcons flexCenter"></i>
+            <div class="filterText flexCenter">Economiques</div>
+          </div>
+          <div class="mobileFamiliales flexBetween filterTextIcons">
+            <i class="fas fa-child fa-lg filterIcons flexCenter"></i>
+            <div class="filterText flexCenter">Familiales</div>
+          </div>
+        </div>
+        <!-- div 2 -->
+        <div class="mobileFilterWrap flexAround">
+          <div class="flexBetween filterTextIcons">
+            <i class="fas fa-heart fa-lg filterIcons flexCenter"></i>
+            <div class="filterText flexCenter">Romantiques</div>
+          </div>
+          <div class="flexBetween filterTextIcons">
+            <i class="fas fa-dog fa-lg filterIcons flexCenter"></i>
+            <div class="filterText flexCenter">Animaux autorisés</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INFO ICON -->
+
+      <div class="info">
+        <div class="parentIcon flexCenter">
+          <i class="fas fa-info fa-xs colorBlue"></i>
+        </div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+
+    <section id="hebergements" class="paddingLeft paddingRight flexAround">
       <div class="flexColumnAround sizeHebergements backGrey blocHebergements">
         <h2>Hébergements à Marseille</h2>
         <div class="bloc1 flexBetween">
@@ -242,7 +242,7 @@
         <p class="bold">Afficher plus</p>
       </div>
 
-      <div class="sizePopulaires blocPopulaires backGrey">
+      <div class="mobilepadding sizePopulaires blocPopulaires backGrey">
         <div class="flexBetween">
           <h2 class="tabletteSizeTitlePop bold">Les plus Populaires</h2>
           <div><i class="fas fa-chart-line fa-2x"></i></div>
@@ -307,7 +307,7 @@
       </div>
     </section>
 
-    <section id="activites" class="activités">
+    <section id="activites" class="activités paddingLeft paddingRight">
       <h2 class="mobileTitlePara">Activités à Marseille</h2>
       <div class="blocActivites flexBetween">
         <div class="cubeActivites flexColumnCenter">

@@ -2,6 +2,15 @@
 html,
 body {
   font-family: Raleway, sans-serif;
+  margin: 0;
+}
+
+.paddingLeft {
+  padding-left: 3%;
+}
+
+.paddingRight {
+  padding-right: 3%;
 }
 
 .flexCenter {
@@ -77,6 +86,7 @@ body {
   background-color: #f2f2f2;
 }
 
+/* HEADER */
 /* NAV */
 
 .sizeNav {
@@ -87,7 +97,7 @@ body {
 }
 
 .sizeLien12 {
-  margin-left: 60%;
+  margin-left: 70%;
 }
 
 .sizeLien {
@@ -116,7 +126,7 @@ body {
   margin-bottom: 7px;
 }
 
-/* HEADER */
+/* Barre recherche */
 
 .desktopNone {
   display: none;
@@ -485,9 +495,14 @@ body {
 
 /* RESPONSIVE */
 
+@media screen and (max-width: 1500px) {
+  .sizeLien12 {
+    margin-left: 60%;
+  }
+
 @media screen and (max-width: 1295px) {
   .sizeLien12 {
-    margin-left: 35%;
+    margin-left: 50%;
   }
   .cubeDetailsHebergements {
     min-height: 150px;
@@ -506,6 +521,9 @@ body {
 }
 
 @media screen and (max-width: 990px) {
+  .sizeLien12 {
+    margin-left: 35%;
+  }
   .mobileFilterWrap {
     flex-direction: column;
     align-items: flex-start;
@@ -515,7 +533,7 @@ body {
   }
   #hebergements {
     flex-direction: column-reverse;
-    width: 100%;
+    width: auto;
   }
   .blocPopulaires {
     flex: none;
@@ -657,6 +675,9 @@ body {
   }
   .blocHebergements {
     background-color: white;
+  }
+  .cubeHebergements {
+    width: 99%;
   }
   .mobileTitlePara {
     padding-left: 5%;
