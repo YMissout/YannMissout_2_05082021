@@ -624,7 +624,6 @@ body {
 } */
   .sizeLien {
     flex-direction: row;
-    
   }
   .sizeLien12 {
     order: 1;
@@ -708,4 +707,11 @@ body {
     margin: 0;
     padding: 0;
   }
+  .paddingLeft {
+  padding-left: 0%;
 }
+
+.paddingRight {
+  padding-right: 0%;
+}
+ }
