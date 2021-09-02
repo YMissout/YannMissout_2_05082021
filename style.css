@@ -2,7 +2,7 @@
 html,
 body {
   font-family: Raleway, sans-serif;
-  margin: 0;
+  margin: 0.5px 0 0 0;
 }
 
 .paddingLeft {
@@ -55,7 +55,7 @@ body {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .borderNone {
@@ -114,12 +114,17 @@ body {
 }
 
 .bordureNav:hover {
-  border-top: 1px solid #0065fc;
+  border-top: 2px solid #0065fc;
   cursor: pointer;
 }
 
 .bordureNav:hover > a {
   color: #0065fc;
+}
+
+.bordureHebergements {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
 }
 
 .margLogo {
@@ -614,8 +619,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  /* .bordureHebergements {
+  border-bottom: 5px solid #0065fc;
+} */
   .sizeLien {
     flex-direction: row;
+    
   }
   .sizeLien12 {
     order: 1;
@@ -626,14 +635,17 @@ body {
     width: 50%;
     border-top: 0;
     border-bottom: 5px solid #f2f2f2;
-  }
+      }
   .sizeLiens {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-  }
+      }
   .sizeLienMobile:hover {
     border-top: 0;
+    border-bottom: 5px solid #0065fc;
+  }
+  .lienHebergementMobile {
     border-bottom: 5px solid #0065fc;
   }
   /* .mobileTitleh1 {
@@ -676,6 +688,7 @@ body {
   }
   .blocPopulaires {
     border-radius: 0;
+    width: 96%;
   }
   .blocHebergements {
     background-color: white;
