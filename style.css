@@ -31,6 +31,11 @@ body {
   align-items: center;
 }
 
+.flexHeader {
+  display: flex;
+  align-items: center;
+}
+
 .flexColumnCenter {
   display: flex;
   flex-direction: column;
@@ -500,15 +505,21 @@ body {
 
 /* RESPONSIVE */
 
+/* MAX WIDTH 1500px */
+
 @media screen and (max-width: 1500px) {
   .sizeLien12 {
     margin-left: 60%;
   }
+}
+
+/* MAX WIDTH 1295px */
 
 @media screen and (max-width: 1295px) {
   .sizeLien12 {
     margin-left: 50%;
   }
+
   .cubeDetailsHebergements {
     min-height: 150px;
   }
@@ -527,6 +538,8 @@ body {
     padding-bottom: 100%;
   }
 }
+
+/* MAX WIDTH 990px */
 
 @media screen and (max-width: 990px) {
   .sizeLien12 {
@@ -558,46 +571,59 @@ body {
   }
 }
 
+/* MAX WIDTH 770px */
+
 @media screen and (max-width: 770px) {
   .sizeLiens {
     width: 90%;
   }
+
   .sizeLien12 {
     margin-left: 20%;
   }
+
   .blocHebergements {
     height: auto;
   }
+
   .bloc1 {
     flex-direction: column;
     margin-bottom: 0;
   }
+
   .bloc2 {
     flex-direction: column;
     margin-top: 0;
   }
+
   .cubeHebergements {
     width: 100%;
     margin-bottom: 50px;
   }
+
   .cubeDetailsHebergements {
     min-height: auto;
   }
+
   .blocActivites {
     flex-direction: column;
     height: auto;
   }
+
   .cubeActivites {
     width: 100%;
     margin-bottom: 50px;
   }
+
   .blocActivites2356 {
     width: 100%;
     height: auto;
   }
+
   .cubeActivites2356 {
     margin-bottom: 50px;
   }
+
   .imgActivites1,
   .imgActivites2,
   .imgActivites3,
@@ -606,6 +632,7 @@ body {
   .imgActivites6 {
     height: 200px;
   }
+
   .footer {
     flex-direction: column;
     align-items: flex-start;
@@ -617,100 +644,126 @@ body {
   }
 }
 
+/* MAX WIDTH 600px */
+
 @media screen and (max-width: 600px) {
-  /* .bordureHebergements {
-  border-bottom: 5px solid #0065fc;
-} */
+  .signMobile {
+    margin-left: auto;
+  }
+
   .sizeLien {
     flex-direction: row;
   }
+
   .sizeLien12 {
     order: 1;
     width: 100%;
     margin-left: 0;
   }
+
   .sizeLienMobile {
     width: 50%;
     border-top: 0;
     border-bottom: 5px solid #f2f2f2;
-      }
+  }
+
   .sizeLiens {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-      }
+  }
+
   .sizeLienMobile:hover {
     border-top: 0;
     border-bottom: 5px solid #0065fc;
   }
+
   .lienHebergementMobile {
     border-bottom: 5px solid #0065fc;
   }
+
   /* .mobileTitleh1 {
     font-size: x-large;
   } */
+
   .borderSearch {
     width: auto;
     border: none;
   }
+
   .search {
     width: 200px;
     border-bottom: 1px solid #f2f2f2;
     border-top: 1px solid #f2f2f2;
   }
+
   .buttonSearch {
     width: 50px;
     border-radius: 15px;
   }
+
   .desktopNone {
     display: block;
   }
+
   .mobileNone {
     display: none;
   }
+
   .margFilter {
     padding-left: 5%;
   }
+
   .mobileEconomiques {
     margin-right: 5px;
   }
+
   .mobileFamiliales {
     margin-right: 0;
   }
+
   .filterText {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .info {
     padding-left: 5%;
   }
+
   .blocPopulaires {
     border-radius: 0;
     width: 96%;
   }
+
   .blocHebergements {
     background-color: white;
   }
+
   .cubeHebergements {
     width: 99%;
   }
+
   .mobileTitlePara {
     padding-left: 5%;
   }
+
   .blocActivites {
     padding: 5%;
     width: 90%;
   }
+
   html,
   body {
     margin: 0;
     padding: 0;
   }
-  .paddingLeft {
-  padding-left: 0%;
-}
 
-.paddingRight {
-  padding-right: 0%;
+  .paddingLeft {
+    padding-left: 0%;
+  }
+
+  .paddingRight {
+    padding-right: 0%;
+  }
 }
- }
