@@ -203,6 +203,7 @@ body {
 
 .filterTextIcons:hover > .filterText {
   color: #0065fc;
+  cursor: pointer;
 }
 
 .filterTextIcons:hover > .filterIcons {
